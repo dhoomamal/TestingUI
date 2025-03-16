@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, 'Arial', sans-serif;
+    }
+
+/* Header Styles */
+   header 
+   {
+    background-color: #A6C271;
+    padding: 15px 0;
+    
+   }
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+        }
+    .new-testimonial{
+        background: #ccc;
+        padding: 20px;
+        border-radius: 1px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        text-align: center;
+        flex: 4;   
+        gap: 10px;
+    }
+    .a-tags{
+        flex: 8;
+        display: flex;
+        gap: 10px;
+        white-space: nowrap;
+        align-items: center;
+    }
+        
+
+    
+
+        /* Main Content */
+    .container {
+        text-align: center;
+        min-width: 100%;
+        max-width :fit-content; 
+        margin: 20px;
+        padding: 40px 101px;
+    
+        }
+
+    h1 {
+        color: #A6C271;
+        text-align: center;
+        margin-bottom: 30px;
+        }
+
+    h2 {
+            color: #A6C271;
+    margin: -24px 0 7px;
+        }
+
+    p {
+        line-height: 1.6;
+        color: black;
+        margin-bottom: 15px;
+        }
+    .section{
+        text-align: center;
+    }
+    .section p{
+        font-size: normal;
+    }
+    .heading{
+        color: #A6C271;
+    }
+    
+        /* Specializations */
+    .specializations {
+        list-style: none;
+        MARGIN-LEFT: 550px;
+        MARGIN-RIGHT: 550px;
+        padding-left: 0;
+        margin-top: 20px;
+        }
+
+    .specializations li {
+        display: flex;
+        justify-content: center;
+        padding: 10px 20px;
+        margin-left: 2px;
+        border-bottom: 1px solid #141414;
+        text-align: center;
+        }
+
+        /* Testimonials */
+    h6{
+        color: #A6C271  ;
+        letter-spacing: 7px;
+        margin-bottom: 21px;
+    }
+    .testimonials {
+        background-color: #edebeb;
+        padding: 40px 20px;
+        margin-top: 40px;
+        }
+
+    .testimonials h2 {
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 65px;
+        }
+
+    .testimonial-container {
+        display: flex;
+        justify-content: space-between;
+        }
+        .testimonial-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .testimonial {
+            flex: 1;
+            min-width: 245px;
+            background-color: white;
+            border-radius:0px;
+            padding: 30px 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+            padding-top: 70px;
+        }
+        
+        .testimonial img {
+            width: 100px;
+            height: 100px;
+            border-radius: 0;
+            object-fit: cover;
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid white;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .testimonial p:first-of-type {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        .testimonial p:last-of-type {
+            font-weight: bold;
+            color: #333;
+            font-size: 18px;
+        }
+        
+       
+        
+        .dot.active {
+            background-color: #A6C271;
+        }
+        
+        @media (max-width: 768px) {
+            .testimonial-container {
+                flex-direction: column;
+            }
+            
+            .testimonial {
+                margin-top: 60px;
+            }
+            
+            h2 {
+                font-size: 32px;
+            }
+        }
+    .dots {
+        text-align: center;
+        margin-top: 30px;
+        }
+
+    .dot {
+        width: 12px;
+        height: 12px;
+        background-color: a#A6C271;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        }
+
+    .dot.active {
+        background-color: #A6C271;
+        }
+        /* footer */
+
+        footer {
+            width: 100%;
+            color: white;
+        }
+        
+        .footer-content {
+            display: flex;
+            background-color: #A6C271;
+            padding: 40px 5%;
+            flex-wrap: wrap;
+        }
+        
+        .footer-section {
+            flex: 1;
+            min-width: 300px;
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-section h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        .first {
+            color: #333;
+        }
+        
+        .second {
+            color: white;
+        }
+        
+        .footer-section h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .para {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        
+        
+        
+        
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .brochure {
+            background-color: white;
+            padding: 10px 20px;
+            display: inline-block;
+            width: 93%;
+            height: 12%;
+        }
+        
+        .brochure-text {
+            color: #333;
+            font-weight: bold;
+        }
+        
+        .social-icons {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .social-icon {
+            width: 35px;
+            height: 35px;
+            background-color: white;
+            margin-right: 15px;
+        }
+        
+      
+        
+        
+        .copyright {
+            background-color: white;
+            color: #676666;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+        
+     
